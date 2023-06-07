@@ -1,0 +1,34 @@
+.active {
+  color: black;
+}
+.shadow {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.logo {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.items {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.home-image {
+  height: 100vh;
+  width: 100%;
+}
